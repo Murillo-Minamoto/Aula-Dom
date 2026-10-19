@@ -26,3 +26,9 @@ function mudar(){
     let titulo = document.getElementById("titulo");
     titulo.innerHTML = novo.value;
 }
+
+function inserir(){
+    let numero = document.getElementById("posicao").value -1;
+    let novoTime = document.getElementById("novo").value;
+    document.getElementsByClassName("time")[numero].innerHTML = novoTime;
+}
